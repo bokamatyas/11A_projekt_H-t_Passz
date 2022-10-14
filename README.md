@@ -1,5 +1,5 @@
 ## 11A_projekt_Hat_Passz
-# *Projektmunka témája: 
+# Projektmunka témája: 
 > Nemes Tihamér, Bánhegyi Ottó*
 # *Tagok:*
 > Bencze Sára
