@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+.header {
+    position: relative;
+    height: 350px;
+    background: url('kep.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    opacity: 100%;
+}
+
+.sz {
+    color: rgb(46, 44, 160);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: clamp(50px, 8vw, 130px);
+    text-shadow: 2px 2px 8px black;
+}
+
+iframe {
+    width: 49%;
+    height: 80vh;
+    padding: 0;
+    background-color: green;
+}
+
+.cla {
+    background-color: red;
+    display: block;
+}
