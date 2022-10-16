@@ -65,8 +65,39 @@ body{
     margin-right: auto;
 }
 
-.tihamer ul{
-    
+#nemestext{
+    text-align: center;
+    color: #ffef96;
+    font-size: 30px;
 }
 
+.tihamer ul{
+    list-style-type: square;
+    color: #b2b2b2; 
+    margin-top: 80px;
+}
+
+.tihamer li p{
+    text-decoration: overline;
+    padding: 5px;
+    font-size: 20px;
+
+    color: #ffef96;
+}
+
+.tihamer .listtext{
+    color: #f4e1d2;
+    font-style: italic;
+    text-shadow: 3px 2px darkred;
+}
+
+.flag img{
+    width: 40px;
+    height: 25px;
+    border-radius: 0;
+    border: 0px; 
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 0;
+}
 
