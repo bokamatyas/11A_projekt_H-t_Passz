@@ -1,103 +1,158 @@
-body{
-    margin: 0;
-    background-image: url(/kepek/hatter_index.jpg);
-    background-repeat: repeat-y;
-    background-size: cover;
+body {
+  margin: 0;
+  background-image: url(/kepek/hatter_index.jpg);
+  background-repeat: repeat-y;
+  background-size: cover;
 }
 
-#banner{
-    position: relative;
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-    min-height: 30vh;
-    overflow: hidden;
+#banner {
+  position: relative;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 30vh;
+  overflow: hidden;
 }
 
-#banner img{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 10%;
+#banner img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
 }
 
-#bannerinner{
-    position: relative;
-    width: 50vw;
-    margin-left: auto;
-    margin-right: auto;
+#bannerinner {
+  position: relative;
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#banner #bannerh1{
-    text-align: center;
-    margin-top: 10%;
-    font-size: 4vw;
-    color: #ffef96;  
-    background-color: rgba(0, 0, 0, 0.5);
-    font-family: 'Times New Roman', Times, serif;
-    border-radius: 20%;
-    text-shadow: 4px 4px black;
+#banner #bannerh1 {
+  text-align: center;
+  margin-top: 10%;
+  font-size: calc(30px + 1.5vw);
+  color: #ffef96;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 20%;
+  text-shadow: 4px 4px black;
 }
 
-#wrapper{
-    width: 75%;
-    /* margin-top: 10px; */
-    border-radius: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #50394c;
-    min-height: 500px;
-    overflow: hidden;
-    position: relative;
-    border-left: 10px groove #ffef96;
-	box-shadow: 10px 10px 10px 10px #666666;  
+#wrapper {
+  width: 75%;
+  /* margin-top: 10px; */
+  border-radius: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #50394c;
+  min-height: 500px;
+  overflow: hidden;
+  position: relative;
+  border-left: 10px groove #ffef96;
+  box-shadow: 10px 10px 10px 10px #666666;
 }
 
-.tihamer{
-    margin-top: 30px;
+#button {
+  margin-top: 20px;
+  text-align: center;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
 }
 
-.tihamer img{
-    border-radius: 50%;
-    border: 6px outset #b2b2b2;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#button button {
+  background-color: cadetblue;
+  border: 5px ridge #b2b2b2;
+}
+#button a {
+  color: black;
+  font-weight: bold;
+  font-size: calc(10px + 0.8vw);
+  text-decoration: none;
 }
 
-#nemestext{
-    text-align: center;
-    color: #ffef96;
-    font-size: 30px;
+#button:hover button {
+  background-color: lightslategrey !important;
+  border: 5px ridge #555555;
 }
 
-.tihamer ul{
-    list-style-type: square;
-    color: #b2b2b2; 
-    margin-top: 80px;
+#button:hover a {
+  color: darkslateblue;
+  text-decoration: underline;
 }
 
-.tihamer li p{
+#button button:active a {
+  color: darkred;
+}
+
+#elvalaszt {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  height: 10px;
+  width: 100%;
+  background-color: #666666;
+  border-radius: 10%;
+  border-top: 5px ridge #b2b2b2;
+  border-bottom: 5px ridge #b2b2b2;
+}
+
+.tihamer {
+  margin-top: 30px;
+}
+
+.kepes{
+    margin-top: 65px;
+}
+
+.tihamer img {
+  border-radius: 50%;
+  border: 6px outset #b2b2b2;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 210px;
+  height: 210px;
+}
+
+.nemestext {
+  text-align: center;
+  color: #ffef96;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.tihamer ul {
+  list-style-type: square;
+  color: #b2b2b2;
+  margin-top: 80px;
+}
+
+.tihamer li{
     text-decoration: overline;
-    padding: 5px;
-    font-size: 20px;
-
     color: #ffef96;
+    overflow: hidden;
 }
 
-.tihamer .listtext{
-    color: #f4e1d2;
-    font-style: italic;
-    text-shadow: 3px 2px darkred;
+.tihamer li p {
+  padding: 5px;
+  font-size: 20px;
+  color: #ffef96;
 }
 
-.flag img{
-    width: 40px;
-    height: 25px;
-    border-radius: 0;
-    border: 0px; 
-    display: inline-block;
-    margin-left: 10px;
-    margin-right: 0;
+.tihamer .listtext {
+  color: #f4e1d2;
+  font-style: italic;
+  text-shadow: 3px 2px darkred;
 }
 
+.flag img {
+  width: 40px;
+  height: 25px;
+  border-radius: 0;
+  border: 0px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 0;
+}
