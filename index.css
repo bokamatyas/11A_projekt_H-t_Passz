@@ -102,8 +102,8 @@ body {
   margin-top: 30px;
 }
 
-.kepes{
-    margin-top: 65px;
+.kepes {
+  margin-top: 65px;
 }
 
 .tihamer img {
@@ -118,9 +118,31 @@ body {
 
 .nemestext {
   text-align: center;
+  margin-top: 20px;
+}
+
+.nemestext a {
+  text-decoration: none;
+  text-align: center;
   color: #ffef96;
   font-size: 30px;
   margin-top: 20px;
+  text-shadow: 4px 4px black;
+}
+
+.nemestext a:hover {
+  pointer-events: auto;
+  color: #f4e1d2;
+}
+
+.nemestext .nev:hover {
+  pointer-events: none;
+  border-bottom: 5px ridge #f4e1d2;
+}
+
+.nemestext .nev {
+  border-bottom: 5px ridge #ffef96;
+  border-radius: 20%;
 }
 
 .tihamer ul {
@@ -129,10 +151,10 @@ body {
   margin-top: 80px;
 }
 
-.tihamer li{
-    text-decoration: overline;
-    color: #ffef96;
-    overflow: hidden;
+.tihamer li {
+  text-decoration: overline;
+  color: #ffef96;
+  overflow: hidden;
 }
 
 .tihamer li p {
