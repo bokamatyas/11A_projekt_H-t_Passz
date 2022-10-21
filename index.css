@@ -259,9 +259,9 @@ body {
   offset-position: inherit;
   font-variation-settings:
   'FILL' 0,
-  'wght' 400,
+  'wght' inherit,
   'GRAD' 0,
-  'opsz' 48,
+  'opsz' inherit,
 }
 
 #footer table td a{
@@ -272,6 +272,12 @@ body {
 
 #footer table td a:hover{
   color: azure;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+#footer table td a:active{
+  color: crimson;
   text-decoration: underline;
   font-size: 20px;
 }
