@@ -166,6 +166,7 @@ body {
   overflow: hidden;
 }
 
+
 .tihamer li p {
   padding: 5px;
   font-size: 20px;
@@ -212,4 +213,77 @@ body {
   text-align: center;
   color: darkred;
   padding: 10px;
+}
+
+#footer{
+  width: 75%;
+  border-radius: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #333333;
+  overflow: hidden;
+  position: relative;
+  border-left: 10px groove red;
+  box-shadow: 10px 10px 10px 10px darkred;
+  min-height: 5vh;
+  border-top: 10px groove tomato;
+}
+
+#footer table{
+  margin-top: 10px;
+  width: 70%;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  /* display: block; */
+}
+#footer th{
+  color: #ffef96;
+  text-align: center;
+  font-size: 25px;
+  border-bottom: 5px ridge rgb(258, 140, 255);
+}
+
+#footer #forras{
+  border-left: 5px ridge rgb(255, 100, 100);
+  border-right: 5px ridge rgb(255, 100, 100);
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+#footer tr:not(:first-child){
+  border-left: 5px ridge rgb(255, 100, 100);
+}
+
+.material-symbols-outlined {
+  font-size: 2.5vw;
+  offset-position: inherit;
+  vertical-align: calc(-15%);
+  font-variation-settings:
+  'FILL' 0,
+  'wght' inherit,
+  'GRAD' 0,
+  'opsz' inherit,
+}
+
+.icon-list{
+  color: #b8b8b8;
+}
+
+#footer table td a{
+  color: #b2b2b2;
+  text-decoration: overline;
+  font-size: 20px;
+}
+
+#footer table td a:hover{
+  color: azure;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+#footer table td a:active{
+  color: crimson;
+  text-decoration: underline;
+  font-size: 20px;
 }
