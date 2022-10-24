@@ -270,10 +270,14 @@ body {
   color: #b8b8b8;
 }
 
+#footer table td{
+  padding: 8px;
+}
+
 #footer table td a{
   color: #b2b2b2;
   text-decoration: overline;
-  font-size: 20px;
+  font-size: 20px;;
 }
 
 #footer table td a:hover{
