@@ -173,20 +173,20 @@ body {
   color: #ffef96;
 }
 
-.tihamer a{
+.tihamer ul a{
   color: #b2b2b2;
   text-decoration: none;
   text-decoration: overline;
   font-size: 20px;;
 }
 
-.tihamer a:hover{
+.tihamer ul a:hover{
   color: azure;
   text-decoration: underline !important;
   font-size: 20px;
 }
 
-.tihamer a:active{
+.tihamer ul a:active{
   color: crimson;
   text-decoration: underline;
   font-size: 20px;
