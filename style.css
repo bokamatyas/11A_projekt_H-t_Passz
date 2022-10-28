@@ -1,42 +1,53 @@
 body {
     margin: 0;
+    background-image: url(./kepek/hatter_index.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
 }
 
-.wrapper {
-    width: 99%;
+.wrapper2 {
+    width: 50%;
+    border-radius: 5%;
     margin-left: auto;
     margin-right: auto;
-    padding: 0;
-}
-
-.header {
+    background-color: #50394c;
+    min-height: 580px;
+    overflow: hidden;
     position: relative;
-    height: 350px;
-    background: url('kep.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: block;
-    opacity: 100%;
-}
-
-.sz {
-    color: rgb(46, 44, 160);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: clamp(50px, 8vw, 130px);
-    text-shadow: 2px 2px 8px black;
-}
-
-iframe {
-    width: 49%;
-    height: 80vh;
+    border-left: 10px groove #ffef96;
+    box-shadow: 10px 10px 10px 10px #666666;
+    margin-bottom: 40px;
     padding: 0;
-    background-color: green;
+  }
+
+.topsz{
+    text-align: center;
+    background-color: #50394c;
+    font-size: 6vh;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffef96;
+    margin-top: 20px;
+    text-shadow: 4px 4px black;
+    margin-bottom: 40px;
 }
 
-.cla {
-    background-color: red;
-    display: block;
+.container{
+    text-align: center;
+    background-color: #50394c;
+    color: #ffef96;
+    overflow: hidden;
+    padding: 0;
 }
+
+#elvalaszt {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 10px;
+    width: 100%;
+    background-color: #666666;
+    border-radius: 10%;
+    border-top: 5px ridge #b2b2b2;
+    border-bottom: 5px ridge #b2b2b2;
+  }
+
