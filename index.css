@@ -173,6 +173,25 @@ body {
   color: #ffef96;
 }
 
+.tihamer a{
+  color: #b2b2b2;
+  text-decoration: none;
+  text-decoration: overline;
+  font-size: 20px;;
+}
+
+.tihamer a:hover{
+  color: azure;
+  text-decoration: underline !important;
+  font-size: 20px;
+}
+
+.tihamer a:active{
+  color: crimson;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
 .tihamer .listtext {
   color: #f4e1d2;
   font-style: italic;
