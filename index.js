@@ -13,8 +13,3 @@ function DivCsere(div1,div2)
       d2.style.display = "none";
    }
 }
-
-
-
-
-
