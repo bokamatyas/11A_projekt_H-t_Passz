@@ -321,3 +321,11 @@ body {
   text-decoration: underline;
   font-size: 20px;
 }
+
+iframe {
+  margin-top: 8px;
+}
+
+.display-block {
+  margin-top: 50px;
+}
