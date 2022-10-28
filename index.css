@@ -324,8 +324,11 @@ body {
 
 iframe {
   margin-top: 8px;
+  border-bottom: #b2b2b2 ridge 8px;
+  border-top: #b2b2b2 ridge 8px;
+  border-radius: 10%;
 }
 
-.display-block {
-  margin-top: 50px;
+.display-block1 {
+  padding-top: 60px;
 }
