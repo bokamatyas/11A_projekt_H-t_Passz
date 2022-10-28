@@ -5,3 +5,6 @@
 > Bencze Sára,
 > Bóka Mátyás,
 > Budai Zalán
+
+## Github Pages:
+> https://bokamatyas.github.io/11A_projekt_Hat_Passz/
